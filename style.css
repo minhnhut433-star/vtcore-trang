@@ -1,0 +1,10 @@
+:root{--bg:#f7f8f6;--card:#fff;--ink:#1c2420;--sub:#5b675f;--line:#dfe5e0;--ac:#15803d}
+@media (prefers-color-scheme:dark){:root{--bg:#101613;--card:#19211d;--ink:#e8eeea;--sub:#9aa8a0;--line:#2b3731;--ac:#4ade80}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 20px 64px}h1{font-size:30px;line-height:1.25;margin:0 0 8px;text-wrap:balance}
+h2{font-size:20px;margin:34px 0 8px}p,li{max-width:68ch}a{color:var(--ac)}.sub{color:var(--sub);margin:0 0 20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:18px 0}
+nav a{margin-right:18px}footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--line);color:var(--sub);font-size:15px}
+.en{border-left:3px solid var(--line);padding-left:16px;color:var(--sub)}
+
+.lang{color:var(--sub)}hr{border:0;border-top:1px solid var(--line);margin:48px 0}nav a{display:inline-block}
